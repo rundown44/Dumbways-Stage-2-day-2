@@ -1,0 +1,242 @@
+body {
+    font-family: 'Poppins','sans-serif';
+    margin: 0px;
+    background-color: #DCDFE4;
+} 
+
+/* index.html styling */
+
+.main-page {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 80px 40px;
+    margin: 65px auto;
+    width: 1125px;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px#585858;
+}
+
+ .welcome {
+    width: 650px;
+    margin: 20px 0px 60px 25px ;
+}
+
+ 
+.welcome h1,p {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+#contact {
+    background-color: rgb(20, 20, 51); 
+    color: white; 
+    font-size: 20px; 
+    padding: 5px 30px; 
+    border : 0px; 
+    border-radius: 30px; 
+    text-decoration: none;
+    margin: 100px 25px;
+}
+
+.download-cv {
+    position: relative;
+    bottom: 13px;
+}
+.download-cv a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    font-weight: 550; 
+    margin-left: 20px;
+}
+
+.download-cv img {  
+    width: 35px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+.right-content {
+    width: 350px; 
+    height: auto;
+    border: 1px; 
+    border-style: solid whitesmoke; 
+    box-shadow: 0 0 10px rgba(85, 83, 83, 0.904);  background-color:white; 
+    border-radius: 2%; 
+    margin: 0px 80px;
+}
+.card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 2% 2% 0% 0%;
+    margin-bottom: 15px;
+}
+
+.right-content h1 {
+    margin : 0px auto;
+    text-align: center;
+}
+
+.right-content p {
+    margin : 0px auto 20px auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+#socialMedia {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.listSocialMedia a {
+    text-decoration: none;
+    color: white;
+} 
+
+#linkedin {
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+#instagram {
+    background-color: black;
+    padding: 5px 7px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#facebook {
+    background-color: black;
+    padding: 8.5px 12px;
+    font-size: 23px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+#twitter {
+    background-color: black;
+    padding: 8.5px;
+    font-size: 23px;
+    width: 30px auto;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+} 
+
+/* navbar styling */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeebeb;
+    padding: 0px 40px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+
+#home {
+    font-weight: bold;
+}
+
+nav img {
+    width: 55px;
+    margin: 10px 50px 0px 0px;
+}
+
+.nav-right a {
+    color: white;
+    border: 1px solid #111727;
+    background-color: #111727;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-right: 70px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* contactMe.html styling */
+
+h1 {
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+  
+}
+form div {
+    padding: 10px;
+}
+
+label{
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: #5a5555a1 1px 1px;
+    position: relative;
+}
+
+select {
+    width: 105%;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    color: white;
+    background-color: #111727;
+    border: 1px solid #111727;
+    border-radius: 50px;
+    padding: 5px 35px;
+    position: relative;
+    left: 380px;
+    font-size: 17px;
+}
